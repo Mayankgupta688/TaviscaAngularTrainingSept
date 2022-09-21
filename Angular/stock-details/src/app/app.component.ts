@@ -1,10 +1,7 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: "app-component",
+    template: "<h3>This is First Component</h3>"
 })
-export class AppComponent {
-  title = 'stock-details';
-}
+export class AppComponent {}
