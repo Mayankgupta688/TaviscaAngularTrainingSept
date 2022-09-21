@@ -1,0 +1,22 @@
+{
+  "name": "usingnpm",
+  "version": "1.0.0",
+  "description": "Random Number",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayankgupta688/TaviscaAngularTrainingSept.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Mayank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayankgupta688/TaviscaAngularTrainingSept/issues"
+  },
+  "homepage": "https://github.com/Mayankgupta688/TaviscaAngularTrainingSept#readme",
+  "dependencies": {
+    "randomize": "^0.0.4"
+  }
+}
