@@ -1,0 +1,14 @@
+<b>Base Price: {{currentPrice}}</b><br/><br/>
+
+<div class="card" style="width: 18rem; padding: 10px; margin: 10px; display: inline-block">
+    <img [src]="stockImage" class="card-img-top" [alt]="stockData?.data?.company" title="{{stockData?.data?.company}}">
+    <div class="card-body">
+      <h5 class="card-title"><b>{{stockData?.data?.company | uppercase}}</b></h5>
+      <p class="card-text">
+        <label><b style="color: grey;">Current Price:</b>{{stockData?.data?.pricecurrent | currency : 'INR' : true}}</label><br/>
+        <label><b style="color: grey;">Current Price Change is:</b> {{stockData?.data?.pricechange  | currency : 'INR' : true}}</label><br/>
+        <label><b style="color: grey;">Previous Price:</b> {{stockData?.data?.priceprevclose | currency : 'INR' : true}}</label><br/>
+      </p>
+      <a href="https://www.moneycontrol.com/india/stockpricequote/banks-public-sector/statebankindia/SBI" class="btn btn-primary">Show Details</a>
+    </div>
+</div>
